@@ -5,6 +5,20 @@
 # giffer
 # By dchardin <donnie@fedoraproject.org>
 # -----------------------------------------------------------------------------
+#
+# -----------------------------------------------------------------------------
+# TODO:
+# 
+# Need to work on error handling. Behavior is misleading when dependencies are
+# not met.
+#
+# Need to set up some configurable options for gif size, etc.
+#
+#
+# -----------------------------------------------------------------------------
+#
+#
+# -----------------------------------------------------------------------------
 # Instructions
 # -----------------------------------------------------------------------------
 #
@@ -82,7 +96,7 @@ rm -rf ~/Videos/giffing/frames/*
 
 #ensure that memory useage limit is set form ImageMagick convert program.
 
-MAGICK_MEMORY_LIMIT=20000000 
+MAGICK_MEMORY_LIMIT=10000000 
 
 #specify temp directory for ImageMagick convert program.
 
